@@ -1,0 +1,36 @@
+.background{
+    
+    height: 25rem;
+    background-image: url(https://evasion-online.com/images/2022/04/paysage-de-tahiti.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.background >div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+}
+.background h2{
+    font-size: 2rem;
+    color: aliceblue;
+    margin: 2rem;
+}
+
+.topDestination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.topDestination> div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: auto;
+    width: 80vw;
+}

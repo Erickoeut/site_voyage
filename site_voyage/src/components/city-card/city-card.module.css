@@ -1,0 +1,26 @@
+.cityCard {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 25rem;
+    max-width: 30rem;
+    height: 25rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.3);
+    border-radius: 1.5rem;
+}
+.cityCard > *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid red;
+}
+.cityCard img{
+    height: 50%;
+    margin: 1rem;
+    border-radius: 1rem  ;
+    object-fit: cover;
+}
+
+
